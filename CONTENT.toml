@@ -1,5 +1,5 @@
-base_url = "/~ne321/s2/"
-base_domain = "www.doc.ic.ac.uk"
+base_url = "/"
+base_domain="localhost:8080"
 
 ## DRAFTS
 
