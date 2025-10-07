@@ -154,7 +154,8 @@ img {
     color: var(--color-code-purple);
 }
 
-.hl-comment {
+.hl-comment,
+.hl-comment-documentation {
     color: var(--color-code-grey);
 }
 
