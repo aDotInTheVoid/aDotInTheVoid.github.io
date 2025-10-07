@@ -223,8 +223,8 @@ currently looks like</p>
 <span class="hl-keyword">mod</span> private_mod <span class="hl-punctuation-bracket">{</span>
     <span class="hl-keyword">pub</span> <span class="hl-keyword">struct</span> <span class="hl-type">S</span><span class="hl-punctuation-delimiter">;</span>
 
-    <span class="hl-comment">/// impl S</span>
-    <span class="hl-keyword">impl</span> <span class="hl-type">S</span> <span class="hl-punctuation-bracket">{</span>
+    <span class="hl-comment-documentation">/// impl S</span>
+<span class="hl-comment-documentation"></span>    <span class="hl-keyword">impl</span> <span class="hl-type">S</span> <span class="hl-punctuation-bracket">{</span>
         <span class="hl-keyword">pub</span> <span class="hl-keyword">fn</span> <span class="hl-function">is_present</span><span class="hl-punctuation-bracket">(</span><span class="hl-punctuation-bracket">)</span> <span class="hl-punctuation-bracket">{</span><span class="hl-punctuation-bracket">}</span>
         <span class="hl-attribute">#<span class="hl-punctuation-bracket">[</span>doc<span class="hl-punctuation-bracket">(</span>hidden<span class="hl-punctuation-bracket">)</span><span class="hl-punctuation-bracket">]</span></span>
         <span class="hl-keyword">pub</span> <span class="hl-keyword">fn</span> <span class="hl-function">hidden_fn</span><span class="hl-punctuation-bracket">(</span><span class="hl-punctuation-bracket">)</span> <span class="hl-punctuation-bracket">{</span><span class="hl-punctuation-bracket">}</span>
@@ -247,8 +247,8 @@ currently looks like</p>
 </ol>
 <p>Between them, they mean a test like:</p>
 <pre lang="rust"><code><span class="hl-keyword">struct</span> <span class="hl-type">S</span>
-<span class="hl-comment">/// the impl</span><span class="hl-punctuation-delimiter"></span>
-<span class="hl-keyword">impl</span> <span class="hl-type">S</span> <span class="hl-punctuation-bracket">{</span>
+<span class="hl-comment-documentation">/// the impl</span>
+<span class="hl-comment-documentation"></span><span class="hl-punctuation-delimiter"></span><span class="hl-keyword">impl</span> <span class="hl-type">S</span> <span class="hl-punctuation-bracket">{</span>
     <span class="hl-keyword">pub</span> <span class="hl-keyword">fn</span> <span class="hl-function">foo</span><span class="hl-punctuation-bracket">(</span><span class="hl-punctuation-bracket">)</span> <span class="hl-punctuation-bracket">{</span><span class="hl-punctuation-bracket">}</span>
     <span class="hl-keyword">pub</span> <span class="hl-keyword">fn</span> <span class="hl-function">bar</span><span class="hl-punctuation-bracket">(</span><span class="hl-punctuation-bracket">)</span> <span class="hl-punctuation-bracket">{</span><span class="hl-punctuation-bracket">}</span>
 <span class="hl-punctuation-bracket">}</span>
