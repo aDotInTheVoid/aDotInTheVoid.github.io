@@ -71,6 +71,17 @@ I swear there were loads of these.
 - Demo this somehow
 - In practice, this doen't matter for rustdoc-json, because we don't inline
 
+## Performance Aside: pull vs push
+
+- Right now, rustdoc-json pushes everything it can in a blob.
+- You pay for things you don't care about
+- And can't ask for more info about the things you do
+    - Or kinda can, at the crate boundy
+    - Except that doens't work, lol lmao
+    - But that's a whole different blogpost
+- Ideally, you wanna be inside the query system
+- But then stabiltiy :'( is bad
+
 ## Conclusion
 
 - Different analises want different views of source code
